@@ -2,7 +2,7 @@
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
-// BANKIST APP
+// BANK APP
 
 // Data
 const account1 = {
@@ -140,3 +140,16 @@ console.log(accounts);
 // };
 
 // console.log(checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]));
+
+// CODING-CHALLENGE#2
+
+const calcAverageHumanAge = function (ages) {
+  const humanAge = ages.map(age => (age <= 2 ? 2 * age : 16 + age * 4));
+
+  const adult = humanAge.filter(age => age >= 18);
+
+  const avgHumanAge = adult.reduce((acc, cur) => acc + cur / adult.length, 0);
+  console.log(avgHumanAge);
+};
+calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
+calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
