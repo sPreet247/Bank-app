@@ -225,28 +225,6 @@ btnSort.addEventListener('click', function (e) {
 });
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
-// LECTURES
-
-// const currencies = new Map([
-//   ['USD', 'United States dollar'],
-//   ['EUR', 'Euro'],
-//   ['GBP', 'Pound sterling'],
-// ]);
-
-// currencies.forEach(function (value, key, map) {
-//   console.log(`${key} : ${value}`);
-// });
-
-// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
-
-// movements.forEach(function (mov, i, arr) {
-//   if (mov > 0) {
-//     console.log(`movement ${i + 1} : you deposited ${mov}`);
-//   } else {
-//     console.log(`movement ${i + 1} : you withdrew ${Math.abs(mov)}`);
-//   }
-// });
-/////////////////////////////////////////////////
 
 // CODING-CHALLENGE#1
 
